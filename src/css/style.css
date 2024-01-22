@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500&display=swap');
+
+@layer base {
+    body {
+        @apply font-display
+    }
+    h1 {
+        @apply text-purple-600 font-bold
+    }
+
+    h2 {
+        @apply text-indigo-900 font-medium
+    }
+
+    p {
+        @apply text-base md:text-lg text-justify text-indigo-900
+    }
+
+    b {
+        @apply text-purple-600
+    }
+
+    input {
+        @apply h-10 w-full rounded-xl bg-purple-100 border border-purple-600 placeholder-slate-400 px-4
+    }
+
+    textarea {
+        @apply rounded-xl bg-purple-100 border border-purple-600 placeholder-slate-400 p-4
+    }
+}
+
+@layer components {
+    .brandLogo {
+        @apply text-3xl font-bold bg-gradient-to-br bg-clip-content text-purple-50 from-purple-600 to-yellow-300
+    }
+
+    .itemBar {
+        @apply font-medium text-purple-600 transition-all duration-300 hover:ease-in-out hover:bg-purple-600 hover:shadow-md hover:shadow-purple-600 hover:py-1 hover:px-4 hover:rounded-full hover:text-yellow-300 hover:font-bold
+    }
+
+    .cardSkills {
+        @apply isolate bg-purple-100/50 backdrop-blur-lg rounded-xl h-24 transition-all duration-300 hover:scale-105 shadow-sm hover:shadow-lg hover:bg-purple-100 hover:shadow-purple-600 shadow-indigo-800 p-0 flex items-center justify-center overflow-hidden
+    }
+
+    .cardProjects {
+        @apply flex flex-col gap-4 isolate bg-purple-100/50 rounded-3xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-purple-100 hover:shadow-purple-600 shadow-md shadow-indigo-800 px-10 py-5
+    }
+
+    .labelCategory {
+        @apply bg-yellow-300 rounded-full px-2 py-1 text-indigo-800
+    }
+
+    .cardCertificates {
+        @apply flex flex-col relative justify-center gap-4 isolate bg-purple-100/80 rounded-3xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-purple-100 hover:shadow-purple-600 shadow-md shadow-indigo-800 overflow-hidden
+    }
+
+    .btn {
+        @apply bg-purple-600 h-10 font-semibold text-purple-100 rounded-xl
+    }
+
+    .logoFooter {
+        @apply border border-indigo-800 rounded-full hover:border-transparent hover:bg-purple-600 hover:scale-110 transition-all duration-300
+    }
+}

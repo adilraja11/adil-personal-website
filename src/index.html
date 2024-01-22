@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html class="scroll-smooth transition duration-500" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adil Web Portofolio</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="shortcut icon" type="x-icon" href="./public/assets/icon-browser.png">
+</head>
+<body>
+    <header class="sticky top-0 z-10 flex justify-around items-center bg-purple-100 py-5">
+        <div class="brandLogo">MARS.</div>
+        <nav class="hidden md:flex justify-end items-center gap-5 ">
+            <a id="confettiBtn" href="#"><div class="itemBar">Home</div></a>
+            <a href="#iconDesc"><div class="itemBar">About</div></a>
+            <a href="#skill"><div class="itemBar">Skill</div></a>
+            <a href="#project"><div class="itemBar">Project</div></a>
+            <a href="#certificates"><div class="itemBar">Certificates</div></a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="flex bg-gradient-to-b from-purple-100 from-30% to-yellow-300 to-95% h-[400px]">
+            <div class="max-w-4xl m-auto">
+                <div class="heroSection mx-5 flex flex-col justify-center gap-5">
+                    <h1 class="text-4xl md:text-5xl text-center">Hi, I'm <span class="before:block before:absolute before:-inset-1 before:-skew-y-6 before:bg-purple-600 relative inline-block">
+                        <span class="relative text-white">Adil.</span>
+                    </span> 👋</h1>
+                    <h2 id="iconDesc" class="text-3xl md:text-4xl text-center"></h2>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="flex bg-yellow-300">
+            <div class="max-w-4xl m-auto">
+                <div class="mx-5 flex flex-col justify-center gap-5">
+                    <h1 class="animate-bounce ease-linear transition-all text-3xl md:text-4xl">About</h1>
+                    <p>I'm <b>Muhammad Adil Raja Saputra</b>, currently pursuing my degree in Informatics at <b>Universitas Diponegoro</b>. My academic journey has been complemented by hands-on experiences, serving as a Practicum for various subjects like OOP, Operating Systems, and Systems Fundamentals.</p>
+                    <p>Beyond academics, I play an active role in student organizations. I hold the position of Head of Human Resource Development for HMIF Undip and handle Public Relations for Google Developer Student Club Undip. Previously, I contributed as a <b>Software Engineer Intern</b> at Astra International and gained valuable experience. Currently, I'm broadening my skills as a <b>Quality Assurance Intern</b> at <b>Dealls Jobs</b>.</p>
+                    <p>My enthusiasm for Software Development has motivated me to continually explore new domains and apply my skills to real-world projects. I'm eager to bring this passion and practical experience to new opportunities.</p>
+                </div>
+            </div>
+        </section>
+        <section id="skill" class="flex bg-gradient-to-b from-yellow-300 from-70% to-purple-100 to-95%">
+            <div class="max-w-4xl m-auto">
+                <div class="mx-5 mt-20 flex flex-col justify-center gap-5">
+                    <h1 class="animate-bounce ease-in transition-all text-3xl md:text-4xl">Skills</h1>
+                    <h2 class="text-lg md:text-xl">Several language or tech stacks have been learned and utilized on various projects created by me.</h2>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-5">
+                        <div class="cardSkills">
+                            <img src="./public/assets/logo-skills/html-5.png" class="object-cover w-10">
+                        </div>
+                        <div class="cardSkills">
+                            <img src="./public/assets/logo-skills/css-3.png" class="object-cover w-10">
+                        </div>
+                        <div class="cardSkills">
+                            <img src="./public/assets/logo-skills/js.png" class="object-cover w-10">
+                        </div>
+                        <div class="cardSkills">
+                            <img src="./public/assets/logo-skills/nodejs.svg" class="object-cover w-20">
+                        </div>
+                        <div class="cardSkills">
+                            <img src="./public/assets/logo-skills/tailwind-css.png" class="object-cover w-28">
+                        </div>
+                        <div class="cardSkills">
+                            <img src="./public/assets/logo-skills/mysql.png" class="object-cover w-10">
+                        </div>
+                        <div class="cardSkills">
+                            <img src="./public/assets/logo-skills/java.png" class="object-cover w-10">
+                        </div>
+                        <div class="cardSkills">
+                            <img src="./public/assets/logo-skills/python.png" class="object-cover w-10">
+                        </div>
+                        <div class="cardSkills">
+                            <img src="./public/assets/logo-skills/flutter-logo.png" class="object-cover w-28">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="project" class="flex bg-gradient-to-b from-purple-100 from-70% to-purple-600 to-95%">
+            <div class="max-w-4xl m-auto">
+                <div class="mx-5 mt-20 flex flex-col justify-center gap-5">
+                    <h1 class="animate-bounce ease-in-out transition-all text-3xl md:text-4xl">Project</h1>
+                    <h2 class="text-lg md:text-xl">A variety of interesting projects have been worked on by me. Take a look at what has been done.</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 gap-y-8">
+                        <a target="_blank" href="https://github.com/fatwaaulia/sib-dicoding-boostive" class="cardProjects">
+                            <h1 class="text-xl">Boostive (2023)</h1>
+                            <img src="./public/assets/project-img/boostive.png" class="rounded-3xl">
+                            <div class="flex flex-wrap gap-2">
+                                <span class="labelCategory">#website</span> 
+                                <span class="labelCategory">#codeigniter</span> 
+                                <span class="labelCategory">#tailwind</span> 
+                            </div>
+                            <p>Crafted a utility website, Boostive, designed to elevated creativity and productivity.</p>
+                        </a>
+                        <a target="_blank" href="https://foodify-restaurant.netlify.app/" class="cardProjects">
+                            <h1 class="text-xl">Foodify (2023)</h1>
+                            <img src="./public/assets/project-img/foodify.png" class="rounded-3xl">
+                            <div class="flex flex-wrap gap-2">
+                                <span class="labelCategory">#frontend</span> 
+                                <span class="labelCategory">#nodejs</span> 
+                                <span class="labelCategory">#webpack</span> 
+                            </div>
+                            <p>Engineered a restaurant catalog website with a static page for restaurant listings</p>
+                        </a>
+                        <a target="_blank" href="https://github.com/adilraja11/AndroidDatabaseCRUD" class="cardProjects">
+                            <h1 class="text-xl">Android CRUD (2022)</h1>
+                            <img src="./public/assets/project-img/android-indent.png" class="rounded-3xl">
+                            <div class="flex flex-wrap gap-2">
+                                <span class="labelCategory">#android</span> 
+                                <span class="labelCategory">#java</span> 
+                            </div>
+                            <p>Create an Android apps to perform CRUD operations using a local database, with a case scenario of recording classes and their capacities at FSM.</p>
+                        </a>
+                        <a target="_blank" href="https://drive.google.com/file/d/1iGBxm80AVBJuSBTZTpSS656buOqlNJDR/view?usp=sharing" class="cardProjects">
+                            <h1 class="text-xl">Mobile Cinema Ticketing (2022)</h1>
+                            <img src="./public/assets/project-img/uiux.png" class="rounded-3xl">
+                            <div class="flex flex-wrap gap-2">
+                                <span class="labelCategory">#userexperience</span>
+                                <span class="labelCategory">#userinterface</span>
+                                <span class="labelCategory">#figma</span> 
+                            </div>
+                            <p>Applied a user-centered design approach for the Mobile Cinema Ticketing application.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="certificates" class="flex bg-gradient-to-b from-purple-600 from-70% to-yellow-300 to-95%">
+            <div class="max-w-4xl m-auto">
+                <div class="mx-5 mt-20 flex flex-col justify-center gap-5">
+                    <h1 class="animate-bounce ease-in-out transition-all text-3xl md:text-4xl text-yellow-300">Certificates</h1>
+                    <h2 class="text-lg md:text-xl text-purple-100">Some certificates have been earned by me through online courses and experiences.</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-8">
+                        <article class="cardCertificates">
+                            <img src="./public/assets/sertif-img/astra-mbkm.png" class="w-full object-cover">
+                            <div class="px-8 py-2 mb-2">
+                                <h1 class="text-xl">Astra Kampus Merdeka Batch 5</h1>
+                                <p>AHM - Software Engineer Intern</p>
+                            </div>
+                        </article>
+                        <article class="cardCertificates">
+                            <img src="./public/assets/sertif-img/dicoding-sib.png" class="w-full object-cover">
+                            <div class="px-8 py-2 mb-2">
+                                <h1 class="text-xl">SIB Dicoding X KM Batch 4</h1>
+                                <p>Front-End and Back-End Developers Student</p>
+                            </div>
+                        </article>
+                        <article class="cardCertificates">
+                            <img src="./public/assets/sertif-img/dicoding-expert.png" class="w-full object-cover">
+                            <div class="px-8 py-2 mb-2">
+                                <h1 class="text-xl">Dicoding Indonesia</h1>
+                                <p>Menjadi Front-End Web Developer Expert</p>
+                            </div>
+                        </article>
+                        <article class="cardCertificates">
+                            <img src="./public/assets/sertif-img/coursera-sertif.png" class="w-full object-cover">
+                            <div class="px-8 py-2 mb-2">
+                                <h1 class="text-xl">Google - Coursera</h1>
+                                <p>Foundations of User Experience (UX) Design</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flex bg-gradient-to-b from-yellow-300 from-70% to-purple-100 to-95%">
+            <div class="max-w-4xl m-auto">
+                <div class="mx-5 mt-20 flex flex-col justify-center gap-5">
+                    <h1 id="titleConnect" class="text-3xl md:text-4xl"></h1>
+                    <h2 class="text-lg md:text-xl">If you're interested, feel free to reach out and contact me as soon as possible! Don't hesitate!</h2>
+                    <form class="grid grid-cols-2 gap-5">
+                        <label class="flex flex-col gap-2">
+                            <span class="block text-base font-medium text-indigo-800">Username</span>
+                            <input type="text" placeholder="Input your Name" required>
+                        </label>
+                        <label class="flex flex-col gap-2">
+                            <span class="block text-base font-medium text-indigo-800">Email</span>
+                            <input type="email" placeholder="Input your Email" required>
+                        </label>
+                        <label class="flex flex-col col-span-2 gap-2">
+                            <span class="block text-base font-medium text-indigo-800">Message</span>
+                            <textarea cols="30" rows="5" placeholder="Input your message here" required></textarea>
+                        </label>
+                        <input type="submit" value="Submit" class="btn col-span-2 md:col-span-1" onclick="alert('On Development')">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="flex flex-col justify-center items-center bg-purple-100 h-[175px] gap-5">
+        <div class="flex flex-row gap-3">
+            <a href="https://www.linkedin.com/in/muhammadadilrajasaputra/" target="_blank" rel="noopener noreferrer">
+                <div class="logoFooter">
+                    <img src="./public/assets/logo-footer/linkedin.png" width="40px" height="40px" class="scale-50" alt="">
+                </div>
+            </a>
+            <a href="https://github.com/adilraja11" target="_blank" rel="noopener noreferrer">
+                <div class="logoFooter">
+                    <img src="./public/assets/logo-footer/github.png" width="40px" height="40px" class="scale-50" alt="">
+                </div>
+            </a>
+            <a href="https://www.instagram.com/adilraja__/" target="_blank" rel="noopener noreferrer">
+                <div class="logoFooter">
+                    <img src="./public/assets/logo-footer/instagram.png" width="40px" height="40px" class="scale-50" alt="">
+                </div>
+            </a>
+            <a href="mailto:rajaadil240@gmail.com">
+                <div class="logoFooter">
+                    <img src="./public/assets/logo-footer/gmail.png" width="40px" height="40px" class="scale-50" alt="">
+                </div>
+            </a>
+        </div>
+        <div>
+            Made with 💜 by <span class="text-purple-600 font-bold">Adil </span> <span class="text-yellow-300 bg-purple-600 font-bold px-1">Raja</span>
+        </div>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
