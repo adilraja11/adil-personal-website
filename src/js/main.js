@@ -45,9 +45,9 @@ confettiBtn.addEventListener('click', () => {
 
 anime({
     targets: '.heroSection',
-    translateX: [-1000, 0],
+    translateX: [-2000, 0],
     duration: 1000,
-    endDelay: 4000,
+    endDelay: 5000,
     direction: 'alternate',
     easing: 'easeInOutSine',
     loop: true,
